@@ -14,10 +14,10 @@
 
 1. Install FIJI : https://fiji.sc/
 2. Install the MorpholibJ plugin for FIJI : https://github.com/ijpb/MorphoLibJ
-3. Install CellposeSAM : https://github.com/MouseLand/cellpose
+3. Install Cellpose v3.1 : https://github.com/MouseLand/cellpose
 4. Install the PTBIOP plugin for FIJI : https://wiki-biop.epfl.ch/en/ipa/fiji/update-site
 5. Download the 3D-NaissiJ cellpose model :
-6. Download the 3D-NaissiJ FIJI script :
+6. Download the 3D-NaissiJ FIJI script from this repositery
 
 ### Usage
 
@@ -25,7 +25,7 @@
 2. Choose script parameters :
    - Check save results to automatically save measurement and segemntation preview in the image folder
    - For the cytoplasme segmentation, corresponding parameters are :
-     - CELLPOSE Python environment folder and model file : Specify the path for the CellposeSAM environment folder (containing python.exe) and the path for the 3D-NaissiJ cellpose model file.
+     - CELLPOSE Python environment folder and model file : Specify the path for the Cellpose environment folder (containing python.exe) and the path for the 3D-NaissiJ cellpose model file.
      - CELLPOSE Channel and diameter : Specify the WGA channel as well as a cell diameter in pixel
      - MERGE LABELS, minimal IoU : Specify the a minimal Intersection Over Union to merge cellpose segmentation along the Z axis (around 0.6 - 0.8)
      - OPTIONNAL: labels erosion : Specify a value in pixel to reduce cytoplasm size
