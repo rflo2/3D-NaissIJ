@@ -1,6 +1,6 @@
 # 3D-NaissIJ
 
-3D-NAissIJ is an analysis image workflow to measure the presence of protein in the cytoplasm and membrane of cells in a fresh cardiac tissue sample prepared following the 3D-NaissI (3D-Native Tissue Imaging) method (https://doi.org/10.1007/s00018-025-05595-y).
+3D-NAissIJ is an analysis image workflow to measure the presence of protein in the cytoplasm and membrane of cells in a fresh cardiac tissue sample prepared following the 3D-NaissI (3D-Native Tissue Imaging) method (https://doi.org/10.1007/s00018-025-05595-y)
 
 ## Getting started
 
@@ -13,11 +13,11 @@
 6. Download the 3D-NaissiJ FIJI script : 
 
 ### Usage
-1. Start FIJI and open an image
-2. Run the 3D-NaissiJ FIJI script with the script editor or by adding the script to the menu : https://imagej.net/scripting/
+1. Start FIJI and run the 3D-NaissiJ FIJI script with the script editor or by adding the script to the menu : https://imagej.net/scripting/
+2. 
 
-
+Note : The 3D-NaissiJ FIJI script is compatible with ImageJ Batch processing : https://imagej.net/scripting/batch
 ## Features
 
 ## Acknowledgments
-
+If you use 3D-NaissiJ, please cite
